@@ -25,7 +25,7 @@ SECRET_KEY = 'a!^bj4ktmw9x!#4zu#jty+g01ioms0(*wt@or$&m+asj^vc)8n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['wichit2s.pythonanywhere.com']
+ALLOWED_HOSTS = ['wichit2s.pythonanywhere.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'agprice',
 ]
 
 MIDDLEWARE = [
