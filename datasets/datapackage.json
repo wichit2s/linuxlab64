@@ -1,0 +1,88 @@
+{
+  "author": {
+    "email": "prcai@oae.go.th",
+    "name": "สำนักงานเศรษฐกิจการเกษตร"
+  },
+  "description": "ข้อมูลราคาสินค้าเกษตรรายวัน",
+  "keywords": [
+    "ราคา",
+    "สินค้า",
+    "เกษตร"
+  ],
+  "license": {
+    "title": "DGA Open Government License",
+    "type": "ogl"
+  },
+  "name": "34",
+  "resources": [
+    {
+      "format": "CSV",
+      "name": "kh-muulraakhaasinkhaaekstrraaywan-csv",
+      "path": "kh-muulraakhaasinkhaaekstrraaywan-.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "PRICE_DATE",
+            "type": "datetime"
+          },
+          {
+            "name": "PR_PROD_NAME",
+            "type": "string"
+          },
+          {
+            "name": "MARKET_NAME",
+            "type": "string"
+          },
+          {
+            "name": "PRICE_DAY",
+            "type": "number"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://opendata.data.go.th/dataset/866a5af2-6a94-4ddd-8e56-7fb086da0986/resource/570c5233-605d-433d-a1a6-c9a4b6e005a9/download/noit11561118811.csv",
+          "title": "ข้อมูลราคาสินค้าเกษตรรายวัน - CSV"
+        }
+      ],
+      "title": "ข้อมูลราคาสินค้าเกษตรรายวัน - CSV"
+    },
+    {
+      "format": "XML",
+      "name": "kh-muulraakhaasinkhaaekstrraaywan-xml",
+      "path": "kh-muulraakhaasinkhaaekstrraaywan-.xml",
+      "sources": [
+        {
+          "path": "https://opendata.data.go.th/dataset/866a5af2-6a94-4ddd-8e56-7fb086da0986/resource/9974067c-e0d6-4a04-8755-be89d43ef0a3/download/noit11561118811.xml",
+          "title": "ข้อมูลราคาสินค้าเกษตรรายวัน - XML"
+        }
+      ],
+      "title": "ข้อมูลราคาสินค้าเกษตรรายวัน - XML"
+    },
+    {
+      "format": "JSON",
+      "name": "kh-muulraakhaasinkhaaekstrraaywan-json",
+      "path": "kh-muulraakhaasinkhaaekstrraaywan-.json",
+      "sources": [
+        {
+          "path": "https://opendata.data.go.th/dataset/866a5af2-6a94-4ddd-8e56-7fb086da0986/resource/e2e15d4d-e322-409b-bc02-73329edb0253/download/noit11561118811.json",
+          "title": "ข้อมูลราคาสินค้าเกษตรรายวัน - JSON"
+        }
+      ],
+      "title": "ข้อมูลราคาสินค้าเกษตรรายวัน - JSON"
+    },
+    {
+      "format": "PDF",
+      "name": "matedata-file",
+      "path": "matedata-file.pdf",
+      "sources": [
+        {
+          "path": "https://opendata.data.go.th/dataset/866a5af2-6a94-4ddd-8e56-7fb086da0986/resource/96bec8f9-8e05-42f2-9746-89f1d3c41f6d/download/c13e09632bd75c957098b7f8a82e95f3.pdf",
+          "title": "Matedata File"
+        }
+      ],
+      "title": "Matedata File"
+    }
+  ],
+  "title": "ข้อมูลราคาสินค้าเกษตรรายวัน"
+}
