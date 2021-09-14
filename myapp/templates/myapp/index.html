@@ -1,0 +1,29 @@
+{% extends 'myapp/base.html' %}
+
+{% block main %}
+<div class="row text-center">
+  <h1>รายชื่อจังหวัดในประเทศไทย</h1>
+</div>
+<div class="row">
+  <div class="card m-3 pt-3 pb-3" style="width: 18rem;">
+    <img src="{{ chiangrai.image }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{ chiangrai.name }}</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
+<div class="row">
+  {% for p in provinces %}
+  <div class="card m-3 pt-3 pb-3" style="width: 18rem;">
+    <img src="{{ p.image }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{ p.name }}</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}
